@@ -1,7 +1,7 @@
 function criarBarra(var_nome, var_avatar) {
   const botBody = document.querySelector("typebot-standard").shadowRoot.querySelector(".typebot-container");
   let mensagesLength = 0;
-  
+
   // Criar a barra informativa no topo
   function createInfoMessage() {
     const message = "Esta é uma conta comercial e não recebe ligações";
