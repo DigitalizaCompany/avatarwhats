@@ -8,7 +8,9 @@ function criarBarra(var_nome, var_avatar) {
 
   var avatar = document.createElement("div");
   avatar.className = "avatar";
-  avatar.innerHTML = '<img src="'+var_avatar+'">';
+  avatar.innerHTML = '<img src="'+var_avatar+'"style="
+    margin: 0 0 0 20px !important;
+">';
 
   var name = document.createElement("div");
   name.className = "name";
